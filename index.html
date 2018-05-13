@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 3 - JS</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-spy="scroll" data-target=".MainNavbar">
+        <nav class="navbar navbar-default navbar-fixed-top MainNavbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-toggle="collapse" data-target=".MainMenu" class="navbar-toggle">
+                        <span class="sr-only">Toogle navigation</span>
+                        <i class="ion-navicon"></i>
+                    </button>
+                    <a class="navbar-brand" href="#">MyShop</a>
+                </div>
+                <div class="collapse navbar-collapse MainMenu">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about">O sklepie</a></li>
+                        <li><a href="#products">Produkty</a></li>
+                        <li><a href="#support">Wsparcie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jan Nowak <i class="caret"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Zamówienia</a></li>
+                                <li><a href="#">Ustawienia konta</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><b>Wyloguj</b></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-bag"></i> Koszyk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="Home">
+            <div id="main-slider" class="carousel slide">
+				<ol class="carousel-indicators hidden-xs hidden-sm">
+				      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+				      <li data-target="#main-slider" data-slide-to="1"></li>
+				      <li data-target="#main-slider" data-slide-to="2"></li>
+				      <li data-target="#main-slider" data-slide-to="3"></li>
+				      <li data-target="#main-slider" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner">
+				    <div class="item active agd">
+				        <div class="carousel-caption">
+				            <h2 class="isXLarge">Sprzęt AGD</h2>
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sunt.</p>
+				            <a href="#products" class="btn green">Sprawdź produkty</a>
+				        </div>
+				    </div>
+				    <div class="item rtv">
+				        <div class="carousel-caption">
+				            <h2 class="isXLarge">Sprzęt RTV</h2>
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sunt.</p>
+				            <a href="#products" class="btn green">Sprawdź produkty</a>
+				        </div>
+				    </div>
+				    <div class="item audio">
+				        <div class="carousel-caption">
+				            <h2 class="isXLarge">Sprzęt Audio</h2>
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sunt.</p>
+				            <a href="#products" class="btn green">Sprawdź produkty</a>
+				        </div>
+				    </div>
+				    <div class="item network">
+				        <div class="carousel-caption">
+				            <h2 class="isXLarge">Sprzęt Sieciowy</h2>
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sunt.</p>
+				            <a href="#products" class="btn green">Sprawdź produkty</a>
+				        </div>
+				    </div>
+				    <div class="item computer">
+				        <div class="carousel-caption">
+				            <h2 class="isXLarge">Komputery</h2>
+				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, sunt.</p>
+				            <a href="#products" class="btn green">Sprawdź produkty</a>
+				        </div>
+				    </div>
+				</div>
+				<a href="#main-slider" class="carousel-control left" data-slide="prev"><i class="ion-chevron-left"></i></a>
+				<a href="#main-slider" class="carousel-control right" data-slide="next"><i class="ion-chevron-right"></i></a>
+            </div>
+        </section>
+        <section id="about" class="About bgDblack">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="isTitle">O sklepie</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                    	<p>
+                    	    Lorem ipsum dolor sit amet, consectetur <u data-toggle="tooltip" title="Lorem ipsum dolor.">adipisicing elit</u>. Libero ut, impedit dolor! Eius maxime dolore, accusantium ducimus vel similique expedita voluptas omnis, iste minus ut temporibus maiores aut blanditiis, minima.
+                    	    Error similique veniam eum labore architecto velit adipisci odio officia <u data-toggle="tooltip" data-html="true" title="Lorem, consectetur adipisicing elit.">fuga provident</u> ratione, esse amet recusandae. Animi itaque, porro temporibus, soluta nemo sed quasi autem <u data-toggle="tooltip" title="Lorem ipsum, consectetur.">quibusdam placeat</u> dignissimos sunt obcaecati!
+                    	    Expedita, hic iste? Impedit tempore ab doloremque, distinctio <u data-toggle="tooltip" title="Lorem ipsum dolor sit.">alias maxime necessitatibus</u> suscipit, facere beatae voluptatem reprehenderit. Molestiae sequi, dolor aliquam quas nostrum vel doloribus eos iusto a dolores rerum culpa!
+                    	</p>
+                    </div>
+                    <p class="text-center">
+                        <button class="btn gray show-tooltips">Pokaż wszystkie podpowiedzi</button>
+                    </p>
+                </div>
+                <div class="row">
+                    <div id="about-accordion" class="col-md-10 col-md-offset-1 accordion">
+                    	<div class="panel panel-default">
+                    	    <div class="panel-heading">
+                    	        <h4 class="panel-title" data-toggle="collapse" data-parent="#about-accordion" data-target="#about1">Historia firmy</h4>
+                    	    </div>
+                    	    <div id="about1" class="panel-collapse collapse in">
+                    	    	<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dolorem veniam ullam rem. Inventore facere, voluptatibus aut laborum totam nostrum at, nulla praesentium amet. Suscipit molestias ut illo temporibus ex? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptates reiciendis cum odio explicabo repudiandae.</div>
+                    	    </div>
+                    	</div>
+                    	<div class="panel panel-default">
+                    	    <div class="panel-heading">
+                    	        <h4 class="panel-title" data-toggle="collapse" data-parent="#about-accordion" data-target="#about2">Nasi klienci</h4>
+                    	    </div>
+                    	    <div id="about2" class="panel-collapse collapse">
+                    	    	<div class="panel-body">Quibusdam necessitatibus nobis animi, optio, delectus totam fugiat rerum vero ab eos, esse quasi modi. Suscipit ipsa culpa, laboriosam officia odit sapiente a, placeat accusantium vel dignissimos, nemo iure amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus consequatur, labore ab sed, soluta reiciendis.</div>
+                    	    </div>
+                    	</div>
+                    	<div class="panel panel-default">
+                    	    <div class="panel-heading">
+                    	        <h4 class="panel-title" data-toggle="collapse" data-parent="#about-accordion" data-target="#about3">Nasze sklepy</h4>
+                    	    </div>
+                    	    <div id="about3" class="panel-collapse collapse">
+                    	    	<div class="panel-body">Ab quae sit, eveniet laboriosam et molestiae. Autem alias cupiditate ducimus, nobis nesciunt eaque doloribus, corporis voluptate praesentium omnis consectetur. Mollitia voluptates aliquid iste itaque ab asperiores dolorem odit eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id maxime ex sed eaque debitis.</div>
+                    	    </div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products" class="Products">
+            <div class="container">
+                <div class="row">
+                    <h2 class="isTitle">Produkty</h2>
+                </div>
+                <div class="row modals">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/298926/woman-kitchen-man-everyday-life-298926.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <div class="caption">
+                                <h3>Do kuchni</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ullam doloremque, autem at quia minima.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <span class="rtv"></span>
+                            <div class="caption">
+                                <h3>Do salonu</h3>
+                                <p>Facilis soluta dolore vitae ratione at, vero temporibus minus eum maxime commodi, iure fuga quos.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/1591/technology-music-sound-things.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <div class="caption">
+                                <h3>Słuchawki</h3>
+                                <p>Nemo, ut, qui! Quas eum sit dolore quam voluptas accusamus saepe natus, laborum explicabo vero.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <div class="caption">
+                                <h3>Sprzęt sieciowy</h3>
+                                <p>Nesciunt animi corporis delectus? At, sequi. Laborum blanditiis, quo. Sequi expedita minus quam.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/265127/pexels-photo-265127.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <div class="caption">
+                                <h3>Komputery</h3>
+                                <p>Delectus et suscipit quae ea minus. Quis, et! Corporis a quam, omnis assumenda, officiis tempora.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="https://images.pexels.com/photos/298926/woman-kitchen-man-everyday-life-298926.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="product-foto">
+                            <div class="caption">
+                                <h3>Do kuchni</h3>
+                                <p>Explicabo facilis repellat, ad quam doloribus itaque possimus minima amet, quas fugit tenetur, ipsa nam.</p>
+                                <a href="#myModal" data-toggle="modal" class="btn dgreen">Więcej</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="support" class="Support bgGreen">
+            <div class="container">
+                <div class="row">
+                    <h2 class="isTitle">Wsparcie</h2>
+                </div>
+                <div class="row">
+                    <div id="support-tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#faq" role="tab" data-toggle="tab">FAQ</a></li>
+                            <li role="presentation"><a href="#testimonials" role="tab" data-toggle="tab">Opinie</a></li>
+                            <li role="presentation"><a href="#manuals" role="tab" data-toggle="tab">Instrukcje</a></li>
+                            <li role="presentation"><a href="#drivers" role="tab" data-toggle="tab">Sterowniki</a></li>
+                        </ul>
+                        <div class="tab-content">
+                        	<div id="faq" role="tabpanel" class="tab-pane fade active in">
+                        		<div class="support-desc">
+                        		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit enim, in veniam, sunt iure voluptatem rerum est ullam, aliquid, molestias nostrum? Eaque commodi, dolorem eligendi totam ad culpa cumque necessitatibus.</p>
+                        		    <p>Error rerum aliquam ipsa illum quam veritatis nulla facere fuga et. Itaque obcaecati, accusamus officia amet eius deserunt praesentium excepturi assumenda sint, necessitatibus nulla commodi facere, explicabo neque nesciunt quibusdam.</p>
+                        		</div>
+                        		</div>
+                        	<div id="testimonials" role="tabpanel" class="tab-pane fade">
+                        		<div class="support-desc">
+                        		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ex deleniti, incidunt quia non impedit eius nobis dignissimos praesentium tenetur. Voluptatum qui obcaecati voluptas sunt earum itaque id possimus eligendi.</p>
+                        		    <p>Nulla iste aspernatur impedit repellat harum vel nesciunt quidem qui esse quis blanditiis, fugit eum sequi fuga at architecto, modi distinctio. Architecto eveniet sequi consectetur nulla deserunt quas dolor quia!</p>
+                        		</div>
+                        	</div>
+                        	<div id="manuals" role="tabpanel" class="tab-pane fade">
+                        		<div class="support-desc">
+                        		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorum a inventore cumque mollitia! Nostrum quaerat esse amet ea dicta ad, nisi explicabo neque ex rerum voluptatem fugit excepturi quasi!</p>
+                        		    <p>Dolorum numquam atque, esse vitae fuga nam explicabo deserunt libero error officiis. Quos et molestias, soluta nisi amet, rem, voluptatem ex aut facere impedit, ipsa beatae numquam perspiciatis aspernatur. Asperiores.</p>
+                        		</div>
+                        		</div>
+                        	<div id="drivers" role="tabpanel" class="tab-pane fade">
+                        		<div class="support-desc">
+                        		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptas, porro laudantium quod soluta nisi assumenda quidem et dolore cum! Non vero illum sapiente vel, minus quaerat sequi asperiores magnam?</p>
+                        		    <p>Sed iste molestiae nobis aspernatur consectetur minus quis et cum, accusamus, mollitia voluptatibus blanditiis. Aliquid rerum enim illum, saepe quas molestiae eos, suscipit, debitis quae velit, nesciunt quam autem soluta.</p>
+                        		</div>
+                        	</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="Contact bgLblack">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="isTitle">Kontakt</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                    	<form id="contact-form" class="form-horizontal">
+                    	    <div class="form-group">
+                    	        <label for="inputName" class="col-sm-3 control-label">Imię i nazwisko</label>
+                    	        <div class="col-sm-9">
+                    	            <input type="text" class="form-control" id="inputName">
+                    	        </div>
+                    	    </div>
+                    	    <div class="form-group">
+                    	        <label for="inputEmail" class="col-sm-3 control-label">E-Mail</label>
+                    	        <div class="col-sm-9">
+                    	            <input type="email" class="form-control" id="inputEmail">
+                    	        </div>
+                    	    </div>
+                    	    <div class="form-group">
+                    	        <label for="inputEmail" class="col-sm-3 control-label">Dział</label>
+                    	        <div class="col-sm-9">
+                    	            <div class="btn-group" data-toggle="buttons">
+                    	                <label class="btn green">
+                    	                    <input type="radio" name="inputRadio" value="">
+                    	                    Sprzedaż wysyłkowa
+                    	                </label>
+                    	                <label class="btn green">
+                    	                    <input type="radio" name="inputRadio" value="">
+                    	                    Marketing
+                    	                </label>
+                    	                <label class="btn green">
+                    	                    <input type="radio" name="inputRadio" value="">
+                    	                    Reklamacje
+                    	                </label>
+                    	            </div>
+                    	        </div>
+                    	    </div>
+                    	    <div class="form-group">
+                    	        <label for="inputEmail" class="col-sm-3 control-label">Wybierz</label>
+                    	        <div class="col-sm-9">
+                    	            <div class="btn-group" data-toggle="buttons">
+                    	                <label class="btn green">
+                    	                    <input type="checkbox" name="inputCheckbox" value="">
+                    	                    Konto
+                    	                </label>
+                    	                <label class="btn green">
+                    	                    <input type="checkbox" name="inputCheckbox" value="">
+                    	                    Złota karta
+                    	                </label>
+                    	                <label class="btn green">
+                    	                    <input type="checkbox" name="inputCheckbox" value="">
+                    	                    Zamówienia
+                    	                </label>
+                    	            </div>
+                    	        </div>
+                    	    </div>
+                    	
+                    	    <div class="form-group">
+                    	        <div class="col-sm-offset-2 col-sm-10">
+                    	            <button type="submit" class="btn dgreen" data-loading-text="Trwa wysyłanie wiadomości..">Wyślij wiadomość</button>
+                    	        </div>
+                    	    </div>
+                    	</form>
+                    </div>
+					<div class="col-md-4 col-md-offset-1">
+						<div class="embed-responsive embed-responsive-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4052428343557!2d-122.00739068386247!3d37.33291367984229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb590b4b4985b%3A0x4569138892ad41a1!2sApple+Park+Visitor+Center!5e0!3m2!1spl!2spl!4v1520351751809" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+						<address class="text-right">
+						  <strong>Twitter, Inc.</strong><br>
+						  1355 Market Street, Suite 900<br>
+						  San Francisco, CA 94103<br>
+						  <abbr title="Phone">P:</abbr> (123) 456-7890
+						</address>
+					</div>
+                </div>
+            </div>
+        </section>
+        <footer class="Footer bgBlack">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-xs-12 col-md-6">
+        				<p>&copy; MyShop 2018 / All rights reserved</p>
+        			</div>
+        			<div class="col-xs-12 col-md-6">
+        				<ul class="social nav nav-pills">
+        					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+        					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+        				</ul>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+
+		<div id="product-modal">
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			    <div class="modal-dialog" role="document">
+			        <div class="modal-content">
+			            <div class="modal-header bgDgreen">
+			                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ion-close-circled"></i></button>
+			                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			            </div>
+			            <div class="modal-body">
+			            	<img src="" class="modal-foto"></img>
+			                <p></p>
+			                <h4 class="isSmall">
+			                	Wybierz dostawę:
+								<button class="btn white" data-toggle="popover" title="Transport lotniczy" data-content="Czas realizacji: do 24h">
+									<i class="ion-android-plane"></i>
+								</button>
+								<button class="btn white" data-toggle="popover" title="Transport drogowy" data-content="Czas realizacji: do 48h">
+									<i class="ion-android-car"></i>
+								</button>
+								<button class="btn white" data-toggle="popover" title="Odbiór osobisty" data-content="Czas realizacji: natychmiast">
+									<i class="ion-ios-home"></i>
+								</button>
+			                </h4>
+						</div>
+			            <div class="modal-footer bgLgray">
+			                <button type="button" class="btn gray" data-dismiss="modal">Zamknij</button>
+			                <button type="button" class="btn green">Zamów produkt</button>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+        <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </body>
+</html>
